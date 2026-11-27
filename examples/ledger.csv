@@ -1,0 +1,5 @@
+kind,id,currency,amount_minor,fee_minor,transaction_id,campaign_id
+campaign,example-campaign,USD,2000,,,
+transaction,example-order,USD,10000,300,,example-campaign
+refund,example-refund-a,USD,1200,,example-order,
+refund,example-refund-b,USD,800,,example-order,

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cerebro-analytics"
+version = "0.1.0"
+description = "Local-first SQLite analytics for transaction logs and unit economics"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.scripts]
+cerebro = "cerebro.cli:main"
+
+[tool.setuptools.package-data]
+cerebro = ["schema.sql"]
