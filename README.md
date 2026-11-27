@@ -28,12 +28,12 @@ The schema is bundled with the package in [`src/cerebro/schema.sql`](src/cerebro
 
 ## Quickstart & Installation
 
-Use Python 3.10 or later with SQLite support. Clone the analytics branch on GitHub with an account that has repository access, or clone the supplied Git bundle for offline use.
+Use Python 3.10 or later with SQLite support. Clone the public repository from GitHub, or clone the supplied Git bundle for offline use.
 
 ```sh
-git clone --single-branch --branch release/cerebro-analytics https://github.com/soportenaturacl-ops/CEREBRO.git cerebro-analytics
-# For the offline bundle, use: git clone cerebro-analytics.bundle cerebro-analytics
-cd cerebro-analytics
+git clone https://github.com/soportenaturacl-ops/CEREBRO.git
+# For the offline bundle, use: git clone cerebro-analytics.bundle CEREBRO
+cd CEREBRO
 python -m venv .venv
 # On Windows PowerShell, run .\.venv\Scripts\Activate.ps1
 # On macOS or Linux, run source .venv/bin/activate
