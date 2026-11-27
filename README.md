@@ -28,11 +28,10 @@ The schema is bundled with the package in [`src/cerebro/schema.sql`](src/cerebro
 
 ## Quickstart & Installation
 
-Use Python 3.10 or later with SQLite support. Clone the public repository from GitHub, or clone the supplied Git bundle for offline use.
+Use Python 3.10 or later with SQLite support.
 
 ```sh
 git clone https://github.com/soportenaturacl-ops/CEREBRO.git
-# For the offline bundle, use: git clone cerebro-analytics.bundle CEREBRO
 cd CEREBRO
 python -m venv .venv
 # On Windows PowerShell, run .\.venv\Scripts\Activate.ps1
@@ -64,4 +63,4 @@ Use one ledger for each reporting period you want to compare. Keep source export
 - Expand the `pytest` suite to cover adapter parsing, export formats, and additional reconciliation cases.
 - Add dated reporting windows and CSV report exports alongside JSON output.
 
-Pull requests are welcome. Include a small reproducible example and a test for behavior changes. Run `python -m pytest -q` before submitting.
+Pull requests are welcome. See the [contribution guide](CONTRIBUTING.md) for local setup, tests, and pull request guidelines.
